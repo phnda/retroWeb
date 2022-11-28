@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+
+/*
+
+.ham img{
+    width: 4vh;
+    margin: 2vh 0vw 0vh 85vw;
+    position: relative;
+}
+*/
+
+.logo img{
+    margin: 2vh 0vw -5vh .5vw;
+    width: 30vh;
+   
+}
+
+.topBar img{
+   width: 101vw;
+    margin-top: 0vh;
+    margin-left: -2vw;
+    z-index: -1;
+}
+
+.title img{
+
+/*   title image was too big again creating that extra space*/
+
+    width: 60vw;
+    margin-left: 30vw;
+    margin-bottom: 30vw;
+}
+
+/*
+.containerMid1{
+    width: 100vw;
+    display: flex;
+}
+*/
+
+.release {
+    font-family: 'Kanit', sans-serif;
+    font-size: 11pt;
+  
+   
+}
+
+.date {
+    font-family: 'Kanit', sans-serif;
+    font-size: 11pt;
+    margin: -2vh 0vw 0vh 0vw;
+   
+}
+
+.gradient img{
+    width: 80vw;
+    margin: -17vh 0vw -40vh 19vw;
+/*    chnages width and margin left*/
+}
+
+.wii img{
+    width: 60vw;
+    margin: 0vh 0vw 0vh 37vw;
+    
+    
+}
+
+.date1{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 45pt;
+    margin: -44vh 0vw 0vh 35vw;
+
+    
+}
+
+.date2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    font-size: 45pt;
+    margin: -5vh 0vw 0vh 35vw;
+
+    
+}
+
+.date3{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+   
+    font-size: 45pt;
+    margin: -5vh 0vw 0vh 35vw;
+    
+}
+
+
+.innovative{
+     font-family: 'Kanit', sans-serif;
+    font-size: 11pt;
+    margin: 40vh 0vw 0vh 0vw;
+}
+
+.features{
+    font-family: 'Kanit', sans-serif;
+    font-size: 11pt;
+    margin: -1vh 0vw 0vh 0vw;
+}
+
+
+
+
+
+
+
+
+
+.wave img{
+    width: 101vw;
+    margin: 0vh 0vw -35vh -1vh;
+
+}
+
+.chuk img{
+    width: 30vw;
+    margin: 0vh 0vw 0vh 25vw;
+    z-index: 1000;
+
+}
+
+.innovativeBlue{
+    width: 40vw;
+}
+
+
+.controller img{
+    width: 15vw;
+    margin: -12vh 0vw 0vh 50vw;
+    
+
+}
+
+.controller{
+    z-index: -1;
+}
+
+.console img{
+     width: 35vw;
+     margin: -18vh 0vw 15vh 58vw;
+
+}
+
+
+.anticipated{
+     font-family: 'Kanit', sans-serif;
+    font-size: 11pt;
+    margin: 20vh 0vw 0vh 0vw;
+}
+
+.titles{
+    font-family: 'Kanit', sans-serif;
+    font-size: 11pt;
+    margin: -1vh 0vw 0vh 0vw;
+}
+
+
+.games img{
+    width: 65vw;
+    margin: 2vh 0vw 25vh 35vw;
+
+}
+
+.bottomBar img{
+    width: 102vw;
+    margin: 0vh 0vw 0vh -2vw;
+/*   */
+}
+
+.vl {
+/*  z-index: 10000000;*/
+    position: absolute;
+    top: 17.5vh;
+    left: 13vh;
+    width: 3vw;
+    height: 237vh;
+    background: black;
+/*    changed this to pos*/
+}
+    
+    
+    
+    
+    
+ @media screen and (min-width: 900px) {
+       .logo img{
+         width: 40vh;
+     }
+     
+     
+       .title img{
+         width: 50vw;
+         margin: 0vh 0vw 50vh 40vw;
+     }
+     
+     
+     .release{
+         font-size: 40px;
+         margin-left: 2vw;
+         
+     }
+     
+          .date{
+         font-size: 40px;
+         margin: -8vh 0vw -60vh 2vw;
+         
+     }
+     
+     .gradient img{
+         width: 110vh;
+         margin: -10vh 0vw -120vh 39vw;
+     }
+     
+     .wii img{
+         width: 95vh;
+         margin-top: -10vh;
+         margin-left: 45vw;
+     }
+     
+     .date1{
+         font-size: 110px;
+         margin: -101vh 0vw -8vh 30vw;
+         
+         
+     }
+     
+      .date2{
+         font-size: 110px;
+          margin: 0vh 0vw -8vh 30vw;
+     }
+     
+      .date3{
+         font-size: 110px;
+          margin: 0vh 0vw 10vh 30vw;
+     }
+     
+     
+     .innovative{
+         font-size: 40px;
+        margin-left: 2vw;
+        margin-top: 100vh;
+         
+     }
+     
+     .features{
+         font-size: 40px;
+          margin-left: 2vw;
+         margin-top: -3vh;
+         margin-bottom: -10vh;
+     }
+     
+     .wave img{
+         width: 182vh;
+         margin: 0vh 0vw -80vh -2vw;
+     }
+     
+      .chuk img{
+         width: 45vh;
+         margin: -55vh 0vw 0vh 25vw;
+     }
+     
+     .controller img{
+         width: 25vh;
+         margin: -60vh 0vw 0vh 50vw;
+     }
+     
+     .console img{
+         margin: -50vh 0vw 0vh 58vw;
+     }
+     
+      .anticipated{
+         font-size: 40px;
+         margin-left: 2vw;
+        margin-top: 60vh;
+         
+         
+     }
+     
+     .titles{
+         font-size: 40px;
+          margin-left: 2vw;
+          margin-top: -3vh;
+        
+     }
+     
+     
+     .games img{
+         width: 90vh;
+         margin: 2vh 0vw 60vh 50vw;
+     }
+     
+     
+      .vl{
+        position: absolute;
+        top: 42.5vh;
+        left: 40vh;
+        width: 4vw;
+        height: 640vh;
+        background: black;
+     }
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+}
+    
+    
+    
+    
+    
